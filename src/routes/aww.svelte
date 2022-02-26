@@ -17,7 +17,7 @@
 
 <div class="md:grid grid-cols-3 content-center gap-11h-full w-screen-10 bg-sky-400 m-2 rounded-md p-12 sm:flex" >
 
-    <p class="self-center">Wanna see a cute picture of a dog? Click on it to save it to favourites</p>
+    <p class="self-center">Wanna see a cute picture of a dog? Click on the picture to save it to favourites</p>
 
     <button class="bg-sky-300 p-10 rounded-md m-10" on:click={getDog}>Yes</button>
 
