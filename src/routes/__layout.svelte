@@ -4,8 +4,8 @@
     @tailwind utilities;
 </style>
 
-<body class="bg-sky-300">
-    <div class="flex justify-center w-screen-10 bg-sky-400 m-2 rounded-md">
+<body class="bg-zinc-700">
+    <div class="flex justify-center w-screen-10 bg-red-300 m-2 rounded-md">
 
         <div class="m-2">
             <a href="/">
