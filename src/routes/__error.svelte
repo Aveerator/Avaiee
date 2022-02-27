@@ -21,7 +21,7 @@
   </script>
   
   
-<div class="topbar"><p class="m-3">About me</p></div>
+<div class="topbar"><p class="m-3">This is error</p></div>
 <div class="maincontainer" >
     <p class="text-6xl text-main">ERROR</p>
     <p class="text-main">{title}</p>
