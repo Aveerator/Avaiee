@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.entry {
+    @apply duration-150 text-main underline;
+}
+.entry:hover {
+    @apply scale-150;
+}
+.topbar {
+    @apply flex justify-center bg-sub m-2 rounded-md text-main;
+}
+.maincontainer {
+    @apply md:grid grid-cols-3 content-center gap-11 h-full bg-sub m-2 rounded-md p-12 sm:flex place-items-center justify-center;
+}
+.dogimg {
+    @apply lg:h-96 bg-cover self-center text-main hover:drop-shadow-2xl duration-75 m-4 p-4 object-scale-down rounded-md;
+}
+.dogbutton {
+    @apply bg-main p-10 rounded-md m-10 text-sub hover:drop-shadow-2xl duration-75;
+}
+
+.bg-main {
+    @apply bg-zinc-700;
+}
+.bg-sub {
+    @apply bg-red-300;
+}
+.text-main {
+    @apply text-zinc-700;
+}
+.text-sub {
+    @apply text-red-300;
+}
