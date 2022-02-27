@@ -1,6 +1,6 @@
 <script>
     /*All TailwindCSS in this file*/
-    import "../style.post.css"
+    import "../style.postcss"
 </script>
 
 <!-- main top bar with divs for every entry -->
