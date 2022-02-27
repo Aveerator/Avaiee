@@ -2,5 +2,5 @@
 <div class="maincontainer" >
     <p class="text-6xl text-main">AVIEE</p>
     <p class="text-main"> Computer guy or sth lol</p>
-    <p class="text-main"> Navigate the page with top bar</p>
+    <p class="text-main"> Use the top bar to navigate in this page</p>
 </div>
