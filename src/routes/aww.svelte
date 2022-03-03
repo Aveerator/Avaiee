@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { saved } from '../stores/store';
+	import { saved, titleBar } from '../stores/store';
 	let data = { message: 'no' };
 	function getDog() {
 		fetch('https://dog.ceo/api/breeds/image/random')
@@ -7,13 +7,10 @@
 			.then((dog) => (data = dog));
 	}
 	function saveDog() {
-		if (!($saved.includes(data.message) || data.message == 'no')) {
-			$saved.push(data.message);
-		}
+		if (!$saved.includes(data.message) || data.message != 'no') $saved.push(data.message);
 	}
+	$titleBar = "Random Dog Generator"
 </script>
-
-<div class="topbar"><p class="m-3">Random Dog Generator</p></div>
 
 <div class="maincontainer">
 	<p class="self-center text-main">

@@ -1,4 +1,7 @@
-<div class="topbar"><p class="m-3">About Me</p></div>
+<script>
+	import {titleBar} from "../stores/store"
+	$titleBar = "About Me"
+</script>
 <div class="maincontainer">
 	<p class="text-6xl text-main">AVIEE</p>
 	<p class="text-main">
