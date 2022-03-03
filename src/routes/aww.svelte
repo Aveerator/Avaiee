@@ -18,5 +18,9 @@
 		'Favourites' tab
 	</p>
 	<button class="dogbutton" on:click={getDog}>Yes</button>
+	{#if data.message == "no"}
+	<p class="dogimg">*dog goes here*</p>
+	{:else}
 	<img on:click={saveDog} src={data.message} class="dogimg" alt="*dog goes here*" />
+	{/if}
 </div>
