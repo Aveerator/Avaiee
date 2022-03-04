@@ -23,6 +23,11 @@
 				<p class="entry">Favourites</p>
 			</a>
 		</div>
+		<div class="m-3">
+			<a href="todos">
+				<p class="entry">Todos</p>
+			</a>
+		</div>
 	</div>
 </body>
 
