@@ -14,8 +14,8 @@
 </script>
 
 <div class="maincontainer-flex columns-1">
-	<input type="text" id="textinput" placeholder="Name of TODO"/> 
-    <input type="text" id="importance" placeholder="Importance of TODO"/>
+	<input class="textinput" type="text" id="textinput" placeholder="Name of TODO"/> 
+    <input class="textinput" type="text" id="importance" placeholder="Importance of TODO"/>
 	<button on:click={apply} class="dogbutton">apply</button>
 	{#each todos as todo}
 		{#if todo.done}
