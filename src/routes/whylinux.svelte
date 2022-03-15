@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { titleBar } from '../stores/store';
-	$titleBar = 'Todo List';
+	$titleBar = 'Why Linux';
 </script>
 
 <div class="maincontainer-flex columns-1">
